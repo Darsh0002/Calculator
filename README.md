@@ -1,39 +1,53 @@
-# Java Swing Calculator
+# 🧮 Java Calculator Application
 
-A simple **calculator application** built using **Java Swing**. It supports basic arithmetic operations like addition, subtraction, multiplication, and division. The calculator has a clean graphical user interface (GUI) and is a great example of Java GUI programming using AWT and Swing components.
+This is a simple yet functional **Calculator in Java**, designed to perform basic arithmetic operations. It provides a user-friendly interface using **Java Swing**, allowing users to add, subtract, multiply, and divide numbers — just like a standard desktop calculator.
 
-## Features
+---
 
-- Graphical User Interface using `JFrame`, `JTextField`, and `JButtons`
-- Basic operations: `+`, `-`, `*`, `/`
-- `AC` (All Clear) button to reset input
-- Input handling using event listeners (`ActionListener`)
-- Font styling and layout management using `GridLayout` and `BorderLayout`
+## 🧠 Overview
 
-## Technologies Used
+The Calculator project is built using **Java Swing**, a part of Java’s standard library for creating graphical user interfaces (GUI). It demonstrates how to build an interactive desktop application with clean event-driven logic and dynamic display updates.
 
-- Java (JDK 8+)
-- AWT (Abstract Window Toolkit)
-- Swing Framework
+---
 
-## How It Works
+## ✨ Features
 
-- The user enters numbers by clicking digit buttons.
-- When an operator is selected, the first number is stored and the operator is displayed.
-- The user enters the second number, and clicking `=` performs the calculation.
-- Results are displayed in the text field.
-- `AC` clears the screen and resets all variables.
+- ✔️ GUI-based calculator using **Swing**
+- ✔️ Supports basic operations:
+  - Addition (+)
+  - Subtraction (−)
+  - Multiplication (×)
+  - Division (÷)
+- ✔️ Numeric input through on-screen buttons
+- ✔️ Decimal point handling
+- ✔️ Clear (`C`) and Equal (`=`) functionality
+- ✔️ Responsive design within the window
+- ✔️ Error handling (e.g., divide by zero)
 
-## Getting Started
+---
 
-### Prerequisites
+## 🧪 Technologies Used
 
-- Java Development Kit (JDK) installed
-- A Java IDE (e.g., IntelliJ IDEA, Eclipse, or NetBeans)
+| Technology | Purpose |
+|------------|---------|
+| **Java**   | Core programming language |
+| **Java Swing** | GUI components (buttons, text fields, layout) |
+| **AWT Event Handling** | For managing user interactions |
 
-### How to Run
+---
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/swing-calculator.git
-   cd swing-calculator
+## 🖥️ How It Works
+
+- The calculator consists of:
+  - A **text field** to show user input and results.
+  - A **grid of buttons** for digits (0–9) and operators.
+- When a button is clicked:
+  - Digits and operations are appended to the text field.
+  - Clicking `=` evaluates the expression and shows the result.
+  - Clicking `C` clears the input field.
+
+## Interface of the Calculator
+-![image](https://github.com/user-attachments/assets/32aec5f7-19e4-4798-a9df-08ab3c457591)
+
+
+
